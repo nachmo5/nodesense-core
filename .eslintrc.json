@@ -1,0 +1,26 @@
+{
+  "extends": "node",
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
+  "env": {
+    "node": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "new-cap": 0,
+    "camelcase": 0,
+    "no-invalid-this": 0,
+    "object-curly-spacing": 0,
+    "quotes": 0,
+    "semi": 0,
+    "no-unused-expressions": 0,
+    "valid-typeof": 0,
+    "babel/new-cap": 1,
+    "babel/camelcase": 1,
+    "babel/no-invalid-this": 0,
+    "babel/quotes": 1,
+    "babel/semi": 1,
+    "babel/no-unused-expressions": 1,
+    "babel/valid-typeof": 1
+  }
+}
